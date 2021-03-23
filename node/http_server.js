@@ -1,22 +1,57 @@
-const http=require('http') //loads the http module
-http.createServer((request,response)=>{
+// //window vs global object
+
+// // console.log(global)
+// console.log(__dirname)
+// //filename path soho
+// console.log(__filename)
+
+// //node module hosse akekta .js file
 
 
-    //tell the browser that everything is okey (status code 200) and the dara is in plain text 
+// //people.js file niye assbo
 
-    response.writeHead(200,{
+// const people=require('./people.js')
 
-        'content-type':'text/plain'
-    });
-    //write the announced text to the body of the page
+// //lodash packege diye kaj korsi
+// const _=require('lodash');
 
-    response.write('hello this is emonsab')
 
-    //tell the browser that all of the response headers and body have been sent 
+// console.log(_.last(people))
 
-    response.end()
-})
+// const path=require('path')
 
-//tel the server whart port to be on
+// const mypath='/home/emonsab/Documents/javascript/node/http_server.js'
 
-.listen(1500)
+// console.log(path.basename(mypath))
+
+// console.log(path.dirname(mypath))
+
+// //extension name
+
+// console.log(path.extname(mypath))
+
+// //sob info eksthe pete chaile
+
+
+// console.log(path.parse(mypath))
+
+
+
+//os module
+
+// const emon=require('os')  //os platform
+
+
+// console.log(emon.platform())
+
+// console.log(emon.freemem()) //ram kototuku free ase
+// console.log(emon.cpus())
+
+
+//fs module
+ //file write korar jonno
+const fs=require('fs');
+fs.writeFileSync('myfile.txt','hello programmers');
+
+//append
+fs.appendFileSync('myfile.txt','how are you')
