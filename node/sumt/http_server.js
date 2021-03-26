@@ -50,8 +50,30 @@
 
 //fs module
  //file write korar jonno
-const fs=require('fs');
-fs.writeFileSync('myfile.txt','hello programmers');
+// const fs=require('fs');
+// // fs.writeFile('myfile.txt','hello programmers');
 
-//append
-fs.appendFileSync('myfile.txt','how are you')
+// // //append
+// // fs.appendFile('myfile.txt','how are you')
+
+// //file read
+
+// //assincronus way te korbo
+
+// fs.readFile('myfile.txt',(err,daa)=>{
+
+//     console.log(daa.toString())  //to string method use korte hbe
+
+    
+// })
+
+
+
+
+
+
+
+
+
+
+

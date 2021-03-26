@@ -1,0 +1,33 @@
+[
+
+    {
+
+        "id":1,
+        "name":"emon",
+        "email":"emonkhan273@gmail.com",
+        
+        "adress":{
+            "city":"gazipur",
+            "street":"kulas ligt"
+
+
+        }
+        
+        
+       
+    },
+    {
+
+        "id":1,
+        "name":"khalid",
+        "email":"khalidhan273@gmail.com",
+        
+        "adress":{
+            "city":"dhaka",
+            "street":"kulas ligt"
+
+        }
+
+
+    }
+]
