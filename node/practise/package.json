@@ -1,0 +1,15 @@
+{
+  "name": "practise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "practise_1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "emonsab",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3"
+  }
+}

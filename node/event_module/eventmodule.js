@@ -10,17 +10,28 @@
 // example 3: registering for the event with callback parameters
 
 //create
+// const  EventEmitter= require("events") //class
+
+// const event=new EventEmitter();
+// event.on('saymyname',()=>{
+
+//     console.log("your name is emon")
+// })
+
+// //fire
+// event.emit("saymyname")
+
+
+
+//perameter hisebe kisu pathate chaile 
+
 const  EventEmitter= require("events") //class
 
 const event=new EventEmitter();
-event.on('saymyname',()=>{
+event.on('saymyname',(sc,msg)=>{
 
-    console.log("your name is emon")
+    console.log(`status code is ${sc} and the page is  ${msg}`);
 })
 
 //fire
-event.emit("saymyname")
-
-
-
-//
+event.emit("saymyname",200,"ok") //suporer call back a argument pass korsi
