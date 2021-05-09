@@ -174,12 +174,12 @@ app.get('/json',(req,res)=>{
 //cookies
 
 
-app.get('/cook',(req,res)=>{
+// app.get('/cook',(req,res)=>{
 
      
-   res.cookie('name',"emon")
-   res.end("cookie set sucess")
-       })
+//    res.cookie('name',"emon")
+//    res.end("cookie set sucess")
+//        })
 
 
     
@@ -215,13 +215,35 @@ app.get('/cook',(req,res)=>{
 
 
  //get request er header
- app.get('/header',(req,res)=>{
-const a=req.header("a")
-const b=req.header("b")
+//  app.get('/header',(req,res)=>{
+// const a=req.header("a")
+// const b=req.header("b")
 
-res.send(a+ b)
+// res.send(a+ b)
 
-       })
+//        })
+
+
+
+
+//url query
+
+//  app.get('/query',(req,res)=>{
+
+
+
+//   const a=req.query.a;
+//   const b=req.query.b;
+
+
+//   res.send(a + b)
+
+//        })
+
+
+
+
+
 
 
 
